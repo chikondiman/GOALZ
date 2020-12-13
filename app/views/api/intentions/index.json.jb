@@ -1,0 +1,10 @@
+@goals.map do |goal|
+  { id: goal.id,
+    intention: goal.intention,
+    goalKeeper: goal.goalKeeper,
+    startTime: goal.startTime,
+    endTime: goal.endTime,
+    completed: goal.completed,
+    goalCohort: goal.goalCohort,
+    }
+end

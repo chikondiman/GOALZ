@@ -1,0 +1,7 @@
+{ id: @goal.id,
+  intention: @goal.intention,
+  goalKeeper: @goal.goalKeepr,
+  startTime: @goal.startTime,
+  endTime: @goal.endTime,
+  completed: @goal.completed,
+  goalCohort: @goal.goalCohort }
